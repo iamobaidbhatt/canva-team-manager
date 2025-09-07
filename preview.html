@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva Pro Team Manager - Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.6s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="glass border-b border-white/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-white">Canva Pro Teams</h1>
+                        <p class="text-xs text-gray-300">Free Access to Premium Features</p>
+                    </div>
+                </div>
+                
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#teams" class="text-gray-300 hover:text-white transition-colors">Teams</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors">Benefits</a>
+                    <a href="https://canva.com" target="_blank" class="glass hover:bg-white/30 text-white px-4 py-2 rounded-lg transition-colors">
+                        Visit Canva
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center animate-fadeIn">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                    Join Our
+                    <span class="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent block">
+                        Canva Pro Team
+                    </span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Unlock premium design features, collaborate with our team, and create stunning visuals with unlimited access to Canva Pro.
+                </p>
+                
+                <!-- Features -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 mb-12">
+                    <div class="glass rounded-xl p-6">
+                        <svg class="w-12 h-12 text-yellow-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold text-white mb-2">Premium Templates</h3>
+                        <p class="text-gray-300">Access thousands of professional templates</p>
+                    </div>
+                    <div class="glass rounded-xl p-6">
+                        <svg class="w-12 h-12 text-green-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold text-white mb-2">Brand Kit</h3>
+                        <p class="text-gray-300">Maintain consistent branding across designs</p>
+                    </div>
+                    <div class="glass rounded-xl p-6">
+                        <svg class="w-12 h-12 text-blue-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold text-white mb-2">Magic Resize</h3>
+                        <p class="text-gray-300">Instantly resize designs for any platform</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white mb-4">Available Teams</h2>
+                <p class="text-xl text-gray-300">Choose a team to join and start creating amazing designs</p>
+            </div>
+
+            <!-- Sample Team Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Team Card 1 -->
+                <div class="glass rounded-xl p-6 hover:border-white/40 transition-all duration-300 transform hover:scale-105">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-white mb-2">Design Masters</h3>
+                            <p class="text-gray-300 text-sm leading-relaxed">Professional design team for creative projects and collaborations</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between text-sm">
+                            <div class="flex items-center space-x-2 text-gray-300">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                                </svg>
+                                <span>23 / 50 members</span>
+                            </div>
+                            <span class="text-green-400 font-medium">27 spots left</span>
+                        </div>
+
+                        <div class="w-full bg-white/20 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-green-400 to-blue-500 h-2 rounded-full" style="width: 46%"></div>
+                        </div>
+
+                        <button class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 group">
+                            <span>Join Team</span>
+                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+
+                        <div class="flex items-center justify-center space-x-2 text-xs text-gray-400">
+                            <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                            <span>Available Now</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Card 2 -->
+                <div class="glass rounded-xl p-6 hover:border-white/40 transition-all duration-300 transform hover:scale-105">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-white mb-2">Creative Hub</h3>
+                            <p class="text-gray-300 text-sm leading-relaxed">Open creative space for designers and content creators</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between text-sm">
+                            <div class="flex items-center space-x-2 text-gray-300">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                                </svg>
+                                <span>35 / 50 members</span>
+                            </div>
+                            <span class="text-green-400 font-medium">15 spots left</span>
+                        </div>
+
+                        <div class="w-full bg-white/20 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-green-400 to-blue-500 h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+
+                        <button class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 group">
+                            <span>Join Team</span>
+                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+
+                        <div class="flex items-center justify-center space-x-2 text-xs text-gray-400">
+                            <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                            <span>Available Now</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Card 3 -->
+                <div class="glass rounded-xl p-6 hover:border-white/40 transition-all duration-300 transform hover:scale-105">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-white mb-2">Pro Designers</h3>
+                            <p class="text-gray-300 text-sm leading-relaxed">Elite team for advanced design projects and brand development</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between text-sm">
+                            <div class="flex items-center space-x-2 text-gray-300">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                                </svg>
+                                <span>42 / 50 members</span>
+                            </div>
+                            <span class="text-green-400 font-medium">8 spots left</span>
+                        </div>
+
+                        <div class="w-full bg-white/20 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-green-400 to-blue-500 h-2 rounded-full" style="width: 84%"></div>
+                        </div>
+
+                        <button class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 group">
+                            <span>Join Team</span>
+                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+
+                        <div class="flex items-center justify-center space-x-2 text-xs text-gray-400">
+                            <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                            <span>Available Now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-gray-400 mb-4">
+                    This is an independent team invitation platform. We are not affiliated with Canva.
+                </p>
+                <a href="#" class="inline-flex items-center text-gray-400 hover:text-white transition-colors">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                    Admin Access
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Note -->
+    <div class="fixed bottom-4 right-4 glass rounded-lg p-4 max-w-sm">
+        <div class="text-white text-sm">
+            <strong>🎉 This is a preview!</strong><br>
+            Install Node.js to run the full application with admin panel and database functionality.
+        </div>
+    </div>
+</body>
+</html>

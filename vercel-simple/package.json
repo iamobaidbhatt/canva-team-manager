@@ -1,0 +1,12 @@
+{
+  "name": "canva-team-manager-simple",
+  "version": "1.0.0",
+  "description": "Simple Canva Team Manager",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
