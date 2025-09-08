@@ -7,17 +7,61 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Join our Canva Pro team and unlock premium design features"
+      content="Canva Pro Team Manager"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Canva Pro Team Manager</title>
+    <title>Canva Team Manager</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        min-height: 100vh;
+      }
+      .container {
+        text-align: center;
+        padding: 50px 20px;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 15px 30px;
+        background: white;
+        color: #667eea;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        margin: 10px;
+        transition: transform 0.3s;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+      }
+    </style>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="container">
+      <h1>🎨 Canva Team Manager</h1>
+      <p>Welcome to your Canva Pro team management system!</p>
+      
+      <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin: 20px 0;">
+        <h3>✅ App is Working!</h3>
+        <p>Your Vercel deployment is successful.</p>
+      </div>
+      
+      <a href="/admin/login" class="btn">🔐 Admin Login</a>
+      <a href="/api/test" class="btn">🧪 Test API</a>
+      
+      <div style="margin-top: 40px;">
+        <h3>Default Admin Credentials:</h3>
+        <p><strong>Username:</strong> admin</p>
+        <p><strong>Password:</strong> admin123</p>
+      </div>
+    </div>
   </body>
 </html>
